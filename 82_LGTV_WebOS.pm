@@ -2,7 +2,7 @@
 #
 # Developed with Kate
 #
-#  (c) 2017-2020 Copyright: Marko Oldenburg (leongaultier at gmail dot com)
+#  (c) 2017-2021 Copyright: Marko Oldenburg (fhemdevelopment at cooltux dot net)
 #  All rights reserved
 #
 #   Special thanks goes to comitters:
@@ -199,6 +199,12 @@ my %openApps = (
     'Spotify'            => 'spotify-beehive',
     'DuplexIPTV'         => 'com.duplexiptv.app',
     'Disney+'            => 'com.disney.disneyplus-prod',
+    'Smart-IPTV'         => 'siptv',
+    'AppleTV'            => 'com.apple.appletv',
+    'Joyn'               => 'joyn',
+    'YouTube-Kids'       => 'youtube.leanback.kids.v4',
+    'DAZN'               => 'dazn',
+    'SkyQ'               => 'com.skygo.app.de.q',
 );
 
 my %openAppsPackageName = reverse %openApps;
@@ -1978,9 +1984,9 @@ sub LGTV_WebOS_WakeUp_Udp {
   ],
   "release_status": "stable",
   "license": "GPL_2",
-  "version": "v3.2.4",
+  "version": "v3.3.0",
   "author": [
-    "Marko Oldenburg <leongaultier@gmail.com>"
+    "Marko Oldenburg <fhemdevelopment@cooltux.net>"
   ],
   "x_fhem_maintainer": [
     "CoolTux"
